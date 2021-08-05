@@ -1,0 +1,167 @@
+lu, li {
+  list-style-type: none;
+}
+
+footer {
+  padding: 2em 0;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow !important;
+  transform: translate(0,-2px);
+}
+
+.bg-custom{
+  background-color: rgba(2,100,110,1);
+}
+.bg-alt{
+  background-color: rgba(38,158,171,1);
+}
+
+.brand-icon{
+  max-height: 6em;
+}
+
+.nav-link {
+  font-size: 1.75em;
+}
+
+.bars {
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid yellow;
+}
+
+.splash-image{
+  max-height: 20em;
+  margin-bottom: 6em;
+}
+
+.ul-center {
+  padding: 0 2em;
+}
+
+.pen-script, .btn-order {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.menu-category, .menu-item, .info {
+  font-family: 'Raleway', sans-serif;
+}
+
+.hours-location-header, .info-heading, .nav-link {
+  font-family: 'Stylish', sans-serif;
+}
+
+
+.menu-header {
+  font-size: 5em;
+}
+
+.hours-location-header {
+  font-size: 3em;
+  color: yellow;
+  padding: 1em 0;
+}
+
+.menu-container{
+  padding: 3em 0;
+}
+
+.info-hours {
+  font-size: 1.5em;
+  padding: 1em 0;
+
+}
+
+.btn-order, .btn-order:hover{
+  font-size: 2em;
+  background-color: orange;
+  color:darkblue;
+  border: 3px solid yellow;
+}
+.btn-order:hover{
+  border: 3px solid darkblue;
+  transform: translate(0,-2px);
+}
+
+
+.border-yellow{
+  border: 3px yellow solid;
+}
+
+.border-red{
+  border: 3px red solid;
+}
+
+.border-orange{
+  border: 3px orange solid;
+}
+
+.border-green{
+  border: 3px green solid;
+}
+
+.border-purple{
+  border: 3px purple solid;
+}
+
+.border-aqua{
+  border: 3px aqua solid;
+}
+
+
+.menu-category{
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: gold;
+  padding-top: .5em;
+  padding-bottom: .2em;
+  border-bottom: 3px gold solid;
+  margin-bottom: 1em;
+}
+
+.menu-item{
+  font-size: 1.5em;
+  letter-spacing: .05em;
+  color: yellow;
+}
+
+p.menu-item{
+  margin-bottom: 0;
+}
+
+.text-color-light{
+  color: rgba(255,255,255,.9);
+}
+
+.fine-print{
+  font-size: .75em;
+  padding-top: 1em;
+}
+
+.hours-location{
+  padding: 3em 0;
+  color: yellow;
+}
+
+.info-heading{
+  font-size: 1.5em;
+  padding-bottom: .5em;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+
+}
