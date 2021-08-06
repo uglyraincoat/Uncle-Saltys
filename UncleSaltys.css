@@ -50,7 +50,7 @@ a:hover {
   padding: 0 2em;
 }
 
-.pen-script, .btn-order {
+.pen-script, .btn-order, .btn-contact {
   font-family: 'Nanum Pen Script', cursive;
 }
 
@@ -58,7 +58,7 @@ a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-.hours-location-header, .info-heading, .nav-link {
+.hours-location-header, .info-heading, .nav-link, .temp-title, .modal-title {
   font-family: 'Stylish', sans-serif;
 }
 
@@ -83,42 +83,17 @@ a:hover {
 
 }
 
-.btn-order, .btn-order:hover{
+.btn-order, .btn-contact {
   font-size: 2em;
   background-color: orange;
   color:darkblue;
   border: 3px solid yellow;
 }
-.btn-order:hover{
+.btn-order:hover, .btn-contact:hover{
   border: 3px solid darkblue;
+  color: yellow;
   transform: translate(0,-2px);
 }
-
-
-.border-yellow{
-  border: 3px yellow solid;
-}
-
-.border-red{
-  border: 3px red solid;
-}
-
-.border-orange{
-  border: 3px orange solid;
-}
-
-.border-green{
-  border: 3px green solid;
-}
-
-.border-purple{
-  border: 3px purple solid;
-}
-
-.border-aqua{
-  border: 3px aqua solid;
-}
-
 
 .menu-category{
   font-size: 2em;
@@ -150,8 +125,8 @@ p.menu-item{
   padding-top: 1em;
 }
 
-.hours-location{
-  padding: 3em 0;
+.hours-location {
+  padding: 3em 0 0 0;
   color: yellow;
 }
 
@@ -163,5 +138,52 @@ p.menu-item{
 #map {
   height: 400px;
   width: 100%;
+}
 
+.hours-location, #explain-takeout {
+  padding: 3em 0;
+  color: yellow;
+}
+
+.padded-anchor {
+  padding: 2em 0;
+  margin: 0 .5em;
+}
+
+.padding-top {
+  padding-top: 2em;
+}
+
+.padding-bottom {
+  padding-bottom: 2em;
+}
+
+.form-custom:focus {
+  border: solid 2px yellow;
+  box-shadow: 0 0 2px yellow;
+}
+
+.temp-title {
+  padding-bottom: 1em;
+}
+
+.modal-content {
+  color: gold;
+  border: 3px gold dashed;
+  border-radius: 1em;
+}
+
+.modal-header {
+  border-bottom: 1px gold solid;
+}
+
+#salty-close-button {
+  color: gold;
+  font-size: 2em;
+  background: none;
+  border: none;
+}
+
+.modal {
+  background: rgba(255,255,255,.05);
 }
