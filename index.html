@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uncle Salty's</title>
+
+    <!--Calls Bootcamp v5 and Font-Awesome for page structure, responsive design, and icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <!--Uncle Salty's Custom Styling-->
+    <link href="UncleSaltys.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+    <div class="container-fluid bg-custom text-color-light text-center">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark" aria-label="saltynavbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-anchor text-color-light"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#saltynavbar" aria-controls="saltynavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="saltynavbar" >
+              <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="TempOrderTakeout.html">Order Takeout</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#the-menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#hours-location">Hours & Location</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div><img class="splash-image" src="images/UncleSaltyLogoBig.png">
+          <br>
+          <a class="btn btn-primary btn-lg btn-order" href="TempOrderTakeout.html" role="button">Order Takeout!</a>
+        </div>
+
+
+
+
+
+
+        <div id="the-menu" class="menu-container">
+          <div class="row g-0 justify-content-between">
+            <div class="col-xs-12">
+
+              <h1 class="pen-script menu-header">THE MENU</h1>
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <ul class="ul-center">
+                <li class="menu-category">Taco</li>
+                <li><p class="menu-item">Carne Asada</p><p class="text-color-light">Marinated grilled skirt steak / $4</p></li>
+                <li><p class="menu-item">Chicken Tinga</p><p class="text-color-light">Chicken breast marinated with mild green chiles / $3</p></li>
+                <li><p class="menu-item">Carnitas</p><p class="text-color-light">Slow roasted pork shoulder / $3</p></li>
+                <li><p class="menu-item">Picadillo</p><p class="text-color-light">Fresh ground sirloin with spices / $3</p></li>
+                <li><p class="menu-item">Vegetable</p><p class="text-color-light">Peppers, onions & tomatoes / $3</p></li>
+                <li><p class="text-color-light fine-print">All tacos come with lettuce & pico. Add cheese / $.50</p></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <ul class="ul-center">
+                <li class="menu-category">Sandwiches</li>
+                <li><p class="menu-item">The Burger</p><p class="text-color-light">Smash burger topped with lettuce, tomato, onion & our special sauce / $7<br>double / $9 add bacon or cheese / $1</p></li>
+                <li><p class="menu-item">The Bird</p><p class="text-color-light">Grilled or fried chicken breast with lettuce, tomato, onion & our special sauce / $8 add bacon or cheese / $1</p></li>
+                <li><p class="menu-item">The Club</p><p class="text-color-light">The classic with roast turkey, bacon, lettuce, tomato & mayo / $10</p></li>
+                <li><p class="menu-item">The Veggie</p><p class="text-color-light">House made veggie patty with black beans & brown rice, nicely spiced and served w lettuce, tomato & onion / $8<br>add cheese / $1</p></li>
+                <li><p class="menu-item">The Dog</p><p class="text-color-light">All beef hot dog with your choice of toppings / $4 add cheese or chili / $1</p></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <ul class="ul-center">
+                <li class="menu-category">Sides</li>
+                <li><p class="menu-item">Chips & Pico</p><p class="text-color-light">House made chips served with our fresh pico / $4</p></li>
+                <li><p class="menu-item">French Fries</p><p class="text-color-light">Perfectly crisp & lightly salted / $3<br>add queso /$1</p></li>
+                <li><p class="menu-item">Onion Rings</p><p class="text-color-light">Panko breaded onion rings / $4</p></li>
+                <li><p class="menu-item">Refried Black Beans</p><p class="text-color-light">Vegetarian beans with onion & spices / $2</p></li>
+                <li><p class="menu-item">Yellow Rice</p><p class="text-color-light">Basmati rice with peas, onions & spices / $2</p></li>
+                <!-- Spare Code for adding items <li><p class="menu-item">Item Name Here</p><p class="text-color-light">Description Here</p></li>-->
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-8">
+              <ul class="ul-center">
+                <li class="menu-category">Starters</li>
+              </ul>
+                <div class ="row g-0">
+                <div class="col-xs-12 col-md-6">
+                <ul class="ul-center">
+                <li><p class="menu-item">Chicken Tenders</p><p class="text-color-light">4 Panko breaded tenders fried golden and served with sauce / $8</p></li>
+                <li><p class="menu-item">Super Fries</p><p class="text-color-light">Fries smothered in chili and topped with queso & sour cream / $7</p></li>
+                </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                <ul class="ul-center">
+                <li><p class="menu-item">Chicken Tortilla Soup</p><p class="text-color-light">Roast chicken, black beans, sweet corn in a tomato kissed broth.<br>Sm / $4 Lrg / $7</p></li>
+                <li><p class="menu-item">House Made Chili</p><p class="text-color-light">Ground sirloin & pinto beans with our secret spices <br>Sm /$5 Lrg / $8</p></li>
+                </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <ul class="ul-center">
+                <li class="menu-category">Garnish</li>
+                <li><p class="menu-item">Salsas / $.50</p><p class="text-color-light">Mild Green<br>Medium Red Chipotle<br>Hot Orange Habanero<br>Sour Cream<br>Fresh Pico</p></li>
+                <li><p class="menu-item">Fresh Guacamole</p><p class="text-color-light">2 oz cup / $1<br>8 oz round w Chips / $8</p></li>
+              </ul>
+            </div>
+            <div class="col-xs-12">
+            <br>
+            <a class="btn btn-primary btn-lg btn-order" href="TempOrderTakeout.html" role="button">Order Takeout!</a>
+            </div>
+          </div>
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+        <div id="hours-location" class="row text-light bg-alt">
+          <h3 class="hours-location-header">Hours & Location</h3>
+          <div class="col-12 col-md-6 hours-location">
+              <div class="text-center info info-hours">
+              <p>We Are Open</p>
+              <p> 11am-7pm, 7 days a week </p>
+              </div>
+            </div>
+
+
+
+          <div class="col-12 col-md-6 hours-location">
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.649991778397!2d-87.6381089484399!3d41.878876379120115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbee269fbbb%3A0x10f6dce5eb88c7d!2sWillis%20Tower!5e0!3m2!1sen!2sus!4v1627065077397!5m2!1sen!2sus" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+          </div>
+
+
+        </div>
+
+      </main>
+
+
+
+      <!-- Modal -->
+
+
+      <div class="modal fade" id="saltyMainModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content bg-alt">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ModalLabel">Ahoy there, Matey!</h5>
+              <button id="salty-close-button" type="button" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body text-start">
+              Uncle Salty's is a restaurant concept in development. Feel free to have a look around at our website!
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <footer>
+        <div class="row justify-content-evenly text-start info g-0">
+          <div class="col-6 col-lg-6">
+            <lu>
+              <li class="info-heading">Uncle Salty's</li>
+              <li>12345 Avenue Street</li>
+              <li>This Town, State</li>
+              <li><a target="_blank" href="tel:123-456-7890">Tel: (123) 456-7890</a></li>
+            </lu>
+          </div>
+          <div class="col-4 col-lg-3">
+            <lu>
+              <li class="info-heading">Follow Us!</li>
+              <li><a href="#" target="_blank"><i class="fa fa-twitter" ></i><span> Twitter</span></a></li>
+              <li><a target="_blank" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+              <li><a target="_blank" href=""><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            </lu>
+          </div>
+        </div>
+      </footer>
+
+
+
+  </div>
+
+
+    <!--Caution: Enables Bootcamp JavaScript integration.-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      var myModal = new bootstrap.Modal(document.getElementById("saltyMainModal"), {});
+      let firstVisit;
+      // Checks + retrieves fistVisit state from localStorage. If none, sets it.
+      if (sessionStorage.getItem("firstVisit") === null){
+        document.onreadystatechange = function () {
+          myModal.show();
+          sessionStorage.setItem("firstVisit", JSON.stringify(false));
+        }
+      };
+
+    </script>
+
+  </body>
+
+
+
+
+</html>
