@@ -187,3 +187,7 @@ p.menu-item{
 .modal {
   background: rgba(255,255,255,.05);
 }
+
+.mobile-max-width {
+  max-width: 100%;
+}
